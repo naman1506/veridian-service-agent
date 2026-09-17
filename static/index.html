@@ -1,0 +1,7 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Veridian Service Agent</title><link rel="stylesheet" href="/styles.css"></head><body>
+<header><div><span class="brand">VERIDIAN</span><span class="muted">Internal Service Agent</span></div><div class="progress"><i id="progress"></i></div><button id="runAll">Run all cases</button></header>
+<section id="metrics" aria-label="Service metrics"></section>
+<main><aside class="queue" aria-label="Case queue"><div class="queue-head"><input id="filter" aria-label="Filter cases" placeholder="Filter cases  /"><kbd>?</kbd></div><div id="caseList" role="listbox"></div></aside>
+<section class="detail" aria-live="polite"><div id="empty">Select a case to inspect policy reasoning.</div><article id="caseDetail" hidden></article></section>
+<aside class="context" id="rail"><button id="railToggle" aria-expanded="true">Context rail</button><div id="railBody"><h3>Authority matrix</h3><dl><dt>IT</dt><dd>Known fixes and fulfilment</dd><dt>Manager</dt><dd>Approvals</dd><dt>Finance</dt><dd>Provisioning and asset sign-off</dd><dt>IT Security</dt><dd>Security reviews and incidents</dd></dl><h3>Ask the KB</h3><input id="askInput" placeholder="Search policy"><div id="askResult"></div></div></aside></main>
+<dialog id="shortcuts"><h2>Keyboard shortcuts</h2><p>j / k move queue · Enter open · a approve · e escalate · / search · ? this help</p><button onclick="shortcuts.close()">Close</button></dialog><script src="/app.js"></script></body></html>

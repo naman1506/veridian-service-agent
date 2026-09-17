@@ -1,0 +1,17 @@
+[
+ {"id":"REQ-01","employee":"Aditi Sharma","opened":"2026-09-21","request":"Laptop won't turn on at all, completely dead, had it about 3.5 years","action_so_far":"Not started"},
+ {"id":"REQ-02","employee":"Vikram Chawla","opened":"2026-09-21","request":"Wi-Fi access for a guest visiting the office tomorrow","action_so_far":"Not started"},
+ {"id":"REQ-03","employee":"Karan Mehta","opened":"2026-09-21","request":"Locked out of account, tried password 6 times","action_so_far":"In progress - reset queued"},
+ {"id":"REQ-04","employee":"Ritu Bhatia","opened":"2026-09-22","request":"Approval to install a non-catalog data-analysis tool","action_so_far":"Waiting on Security review"},
+ {"id":"REQ-05","employee":"Sanjay Oberoi","opened":"2026-09-22","request":"VPN stopped working, says credentials expired","action_so_far":"Not started"},
+ {"id":"REQ-06","employee":"Meera Iyer","opened":"2026-09-22","request":"3rd floor printer shows paper jam with no jam","action_so_far":"Investigating - technician assigned"},
+ {"id":"REQ-07","employee":"Farhan Ali","opened":"2026-09-23","request":"Works from home 4 days/week, how to get a monitor","action_so_far":"Not started"},
+ {"id":"REQ-08","employee":"Ananya Reddy","opened":"2026-09-23","request":"Thinks they got a phishing email asking for login and is forwarding it to a few teammates to check","action_so_far":"Escalated to Security (auto-flagged)"},
+ {"id":"REQ-09","employee":"Rohit Desai","opened":"2026-09-23","request":"Mailbox full, can't send email","action_so_far":"Not started"},
+ {"id":"REQ-10","employee":"Kavya Pillai","opened":"2026-09-23","request":"Admin access to the finance reporting server, urgent for month-end","action_so_far":"Not started"},
+ {"id":"REQ-11","employee":"Nikhil Bansal","opened":"2026-09-24","request":"New contractor joining next week needs VPN access","action_so_far":"Not started"},
+ {"id":"REQ-12","employee":"Sneha Kulkarni","opened":"2026-09-24","request":"Can't log into expense tool, invalid credentials","action_so_far":"Waiting on employee (asked for screenshot, no reply)"},
+ {"id":"REQ-13","employee":"Aman Gupta","opened":"2026-09-24","request":"Laptop screen flickering, had it 2 years, maybe a fix not a replacement","action_so_far":"Not started"},
+ {"id":"REQ-14","employee":"Tanya Chopra","opened":"2026-09-25","request":"Approval to install a productivity-tracking browser extension","action_so_far":"Not started"},
+ {"id":"REQ-15","employee":"Rahul Menon","opened":"2026-09-25","request":"hey can you help, its not working","action_so_far":"Not started"}
+]
