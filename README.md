@@ -72,6 +72,10 @@ Run `python -m eval.run_eval` to reproduce [the detailed report](eval/report.md)
 
 `GET /api/cases`, `GET /api/cases/{id}`, `POST /api/run`, `POST /api/run/{id}`, `POST /api/ask`, `GET /api/metrics`, `GET /api/audit`, and `GET /healthz` are available locally. `POST /api/ask` answers only from cited KB text or returns “not covered by policy.”
 
+## Deploy to Render
+
+The committed `render.yaml` deploys this app as a public FastAPI web service. In Render, choose **New → Blueprint**, connect `naman1506/veridian-service-agent`, and create the detected `veridian-service-agent` service. Render installs `requirements.txt`, runs Uvicorn on its assigned public port, and checks `/healthz`. The Free plan can spin down after inactivity and wake when the next visitor opens the URL.
+
 ## Assets and deck
 
 ```bash
