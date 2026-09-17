@@ -80,14 +80,14 @@ def page1(c):
     card(c,210,300,145,56,'PERSISTENCE','Audit storage','audit/decisions.jsonl + data/veridian.db',G)
     # Evaluation callout
     rect(c,35,300,145,56,HexColor('#FFF8E8'),HexColor('#EDD79B'));c.setFillColor(A);c.setFont('Helvetica-Bold',6.5);c.drawString(45,284,'VERIFICATION');c.setFillColor(I);c.setFont('Helvetica-Bold',9);c.drawString(45,270,'Evaluation harness');para(c,45,255,'eval/run_eval.py checks 19 golden cases.',125,6.9,M)
-    section(c,35,250,3,'Implemented component contracts')
-    table(c,35,231,[135,190,200],['MODULE','INPUT / FUNCTION','OUTPUT'],[
+    section(c,35,225,3,'Implemented component contracts')
+    table(c,35,206,[135,190,200],['MODULE','INPUT / FUNCTION','OUTPUT'],[
         ('app/main.py','HTTP routes; StaticFiles mount','JSON API + operator console'),
         ('app/orchestrator.py','Orchestrator.run(case_id)','retrieved chunks -> final Decision'),
         ('app/retriever.py','Retriever.search(request)','top-k KB chunks with score'),
         ('app/policy_engine.py','verdict(case)','preliminary Pydantic Decision'),
         ('app/audit.py','record(case, chunks, decision)','JSONL append + SQLite upsert')],20)
-    para(c,35,86,'Implementation note: classifier.py, precedent.py, and conflict_detector.py exist but are not invoked by Orchestrator.run. Their roles are not represented as runtime nodes above.',525,7.3,M)
+    para(c,35,60,'Implementation note: classifier.py, precedent.py, and conflict_detector.py exist but are not invoked by Orchestrator.run. Their roles are not represented as runtime nodes above.',525,7.3,M)
 
 def page2(c):
     header(c,2,'End-to-End Workflow','Actual request lifecycle')
